@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_linear"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Linear Layout" />
+        <item
+            android:id="@+id/nav_relative"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Relative Layout" />
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Table Layout" />
+
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/nav_option"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Options" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.probook.basicui.TableLayout"
+    tools:showIn="@layout/activity_table_layout">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/mobile_computing_marks"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:autoText="false" />
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv1"
+            android:text="@string/name"
+            android:layout_weight="1"
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/et2"
+            android:text="@string/cat_1"
+            android:layout_weight="1"
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv4"
+            android:text="@string/willy_mareka"
+            android:layout_weight="1"
+            android:background="#d8d8d8"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et5"
+            android:text="@string/_30_30"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent"
+            android:editable="false"
+            android:enabled="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv6"
+            android:text="@string/beatrice_birir"
+            android:layout_weight="1"
+            android:background="#d8d8d8"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/tv7"
+            android:text="@string/_5_30"
+            android:layout_weight="1"
+            android:background="#ff3c3c"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent"
+            android:editable="false"
+            android:enabled="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv8"
+            android:text="@string/sarah_kerubo"
+            android:layout_weight="1"
+            android:background="#d8d8d8"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/tv9"
+            android:text="@string/_5_4_30"
+            android:layout_weight="1"
+            android:background="#ff3c3c"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:layout_height="match_parent"
+            android:editable="false"
+            android:enabled="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv10"
+            android:text="@string/mareka_high"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv11"
+            android:text="@string/report"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="20dip"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv12"
+            android:text="@string/form"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/back"
+            android:id="@+id/btnback"
+            android:layout_column="0" />
+    </TableRow>
+
+</TableLayout>

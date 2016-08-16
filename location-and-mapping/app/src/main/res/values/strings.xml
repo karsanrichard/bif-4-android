@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PataGigDemoApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_post_find_gig">PostFindGig</string>
+    <string name="SignUpTitle">SIGN UP TO PATAGIG</string>
+    <string name="PostGig">POST A GIG</string>
+    <string name="FindGig">FIND A GIG</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="maps">Maps</string>
+    <string name="welcomeTitle">Welcome, This is a Maps App</string>
+    <string name="Next">NEXT</string>
+    <string name="welcomeText">Welcome, this is a maps app</string>
+    <string name="Nxt">Next</string>
+    <string name="search">Search</string>
+</resources>

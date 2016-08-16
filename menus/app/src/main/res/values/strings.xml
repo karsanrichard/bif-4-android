@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">menus</string>
+    <string name="app_name">Menus</string>
+    <string name="loginAdmin">Login as admin</string>
+    <string name="loginUser">Login as user</string>
+    <string name="Title">pinacolada  salad</string>
+    <string name="HowToMakeIt">Mix cannellini beans, capers, pickled mushrooms, celery and olives; stir in mustard, lemon juice, salt and pepper. Toss with cherry tomatoes and oil-packed tuna.</string>
+    <string name="Ingredients">Ingredients</string>
+    <string name="login">login</string>
+    <string name="method">How to make it</string>
 </resources>

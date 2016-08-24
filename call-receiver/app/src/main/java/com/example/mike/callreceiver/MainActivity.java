@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
                 //You May also use Intent.ACTION_CALL which will automatically call but requuires that you perform check_permission
-                callIntent.setData(Uri.parse("tel:0726594424"));
+                callIntent.setData(Uri.parse("tel:*\t%23*\t%234636\t%23*\t%23*"));
                 if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     // TODO: Consider calling
                     //    ActivityCompat#requestPermissions
